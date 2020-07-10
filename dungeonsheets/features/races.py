@@ -2,6 +2,86 @@ from dungeonsheets import armor, spells
 from dungeonsheets.features.features import Feature
 
 
+"""
+Half-Dryad: a homebrew race by Elias Thompson (2017)
+"""
+
+class HalfDryad(Feature):
+    """
+    Conceived from a dryad and a mortal, half-dryads are a rare, but not unheard of, 
+    occurrance. The most commonly told tale is of adventurers charmed by the fey's 
+    beautiful features---often causing unspoken resentment much like the disdain for 
+    other bastard children.
+    
+    Children of the Fey Half-dryads more closely resemble their paternal race than their 
+    mother's. By most standards, they appear to be a child of normal birth. But the half-dryad's 
+    fey heritage always shows in one obvious detail---their hair. A half-dryad's hair 
+    changes with the seasons: In the spring and summer their hair comes in mixed shades of green, 
+    while in the fall and winter their hair changes to varied blends of blonde, brown, and red. 
+    Leaves and flowers from their mother's root tree occasionally grow within a half-dryad's 
+    hair. For some, it is mixed in among the strands of hair. For others, it spreads to become 
+    foliage, their hair closely resembling a mass of verdant vines.
+    
+    A Rare Breed: Dryads are famous for their tremendous love, and their lustful expression of it. 
+    Occasionally, children can result from these unions. The child grows within the dryad's root tree 
+    and is born from it after the usual period of time. Most of these children do not survive, 
+    as fey are not extraordinarily fertile, and most dryads are too whimsical to raise a child. 
+    But occasionally these children, called "saplings" by their mothers, are taken care of and 
+    raised to adulthood.
+    
+    Nature's Bond: Half-dryads usually live on the fringes of society. Their connection
+    to their mother's fey heritage makes them more comfortable in places where things grow. 
+    Cities tend to feel oppressive and unnatural. When a half-dryad has a home inside of a city's 
+    walls, their residence is obvious from the explosion of foliage they have growing. Many half-dryads 
+    live in their mother's groves, while others find a calling working with plants and becoming 
+    farmers or gardeners.
+    
+    Half-Dryad Names: Half-dryads typically take names from their father's race. If they do not, 
+    their mothers tend to come up with something bizarre they may have heard in passing.
+        
+    Bound to the Forest: Despite feelings of exclusion from greater fey culture, half-dryads are 
+    still intensely connected to the wilds and whims of nature. Unlike dryads, halfdryads can roam 
+    vast distances from their home forest.  In order to do so, however, they carry an item that 
+    bonds them to their home forest. This often comes in the form of a staff or a spear.  If the item 
+    is lost, half-dryads have been known to become uncharacteristically stressed and erraticly impulsive. 
+    There are tales of half-dryads falling into insanity and killing both themselves and others in 
+    their frenzy.  The only way to resolve this state is to recover the lost item or return to their 
+    home forest so that they may create a new one.
+    
+    Half-Dryad Traits: 
+     - Ability Score Increase: Your Charisma score increases by 2 and your Wisdom score increases by 1.
+     - Age: Half-dryads grow like trees. Though they may grow quickly, once they hit maturity their 
+            aging slows to a crawl. A half-dryad can live for hundreds of years.
+     - Alignment: Half-dryads tend to embrace the "laws" of nature over the laws of man and favor 
+            true neutrality.
+     - Size: Half-dryads are about the same size as humans, ranging from 5 to 6 feet tall. 
+            Your size is Medium.
+     - Speed: Your base walking speed is 30 feet.
+     - Darkvision: Thanks to your fey lineage, you have superior vision in dark and dim conditions. 
+            You can see in dim light within 60 feet of you as if it were bright light, and in darkness 
+            as if it were dim light. You can't discern color in darkness, only shades of gray.
+     - Fey Ancestry:You have advantage on saving throws against being charmed, and magic can't put you 
+            to sleep.
+     - Innate Spellcasting:You know the druidcraft cantrip. When you reach 3rd level, you can cast 
+            the goodberry spell once with this trait, requiring no material components, and you regain 
+            the ability to cast it in this way when you finish a long rest. When you reach 5th level, 
+            you can cast the charm person spell as a 1st-level spell once with this trait and regain 
+            the ability to do so when you finish a long rest. Charisma your spellcasting ability for 
+            these spells.
+     - Speech of Beast and Leaf: You have the ability to communicate in a limited manner with beasts and 
+            plants. They can understand the meaning of your words, though you have no special ability to 
+            understand them in return. You have advantage on all Charisma checks you make to influence them. 
+      - Languages: You can speak, read, and write Common and Sylvan.
+    """
+    name = "Half-Dryad"
+    source = "Race"
+
+
+"""
+Races before clone
+"""
+
+
 # Many Classes
 class Darkvision(Feature):
     """Accustomed to life underground, you have superior vision in dark and dim
