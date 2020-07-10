@@ -1,5 +1,65 @@
 from dungeonsheets.features.features import Feature
 
+"""
+Far Traveller backgrounds from Sword Coast Adventure Guide, pp. 148--150
+
+    Almost all of the common people and other folk that one might encounter 
+    along the Sword Coast or in the North have one thing in common: they live out 
+    their lives without ever traveling more than a few miles from where they were born.
+    
+    You aren't one of those folk.
+    
+    You are from a distant place , one so remote that few of the common folk in the 
+    North realize that it exists and chances are good that even if some people you 
+    meet have heard of your homeland, they merely know the name and perhaps a few 
+    outrageous stories which have come to this part of Faerûn for your own reasons, 
+    which you might or might not choose to share.
+    
+    Although you will undoubtably find some of this land's ways to be strange and discomfiting, 
+    you can also be sure that some things its people take for granted will be to you new 
+    wonders that you've never laud eyes on before.  By the same token, you're a person of interest, 
+    for good or ill, to those around you almost anywhere you go.    
+"""
+
+class Emissary(Feature):
+    name = "Emissary"
+    source = "Background (Far Traveller)"
+    
+
+class Exile(Feature):
+    name = "Exile"
+    source = "Background (Far Traveller)"
+    
+    
+class Fugitive(Feature):
+    name = "Fugitive"
+    source = "Background (Far Traveller)"
+    
+    
+    
+class Pilgrim(Feature):
+    name = "Pilgrim"
+    source = "Background (Far Traveller)"
+    
+    
+    
+class Sightseer(Feature):
+    name = "Sightseer"
+    source = "Background (Far Traveller)"
+    
+    
+    
+class Wanderer(Feature):
+    name = "Wanderer"
+    source = "Background (Far Traveller)"
+    
+    
+    
+    
+"""
+The background before the clone
+"""
+
 
 class ShelterOfTheFaithful(Feature):
     """As an acolyte, you command the respect of those who share your faith, and
